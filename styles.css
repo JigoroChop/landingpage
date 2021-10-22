@@ -1,1 +1,80 @@
-<div class="Header">
+* {
+    font-family: "Helvetica", sans-serif;
+}
+
+body {
+ margin: 0;
+}
+
+.hero, .footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    flex: 1 1 0;
+    padding: 2em;
+    align-items: center;
+
+}
+
+.links {
+    margin-left: auto;
+    display: flex;
+    padding: 0 1em;
+    gap: 10px;
+}
+
+.herotext {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.herosubtext, .headerlink {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.featurestext {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quotecontainer {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.ctabutton, .ctacontainer {
+    background-color: #3882F6;
+}
+
+.ctacontainer {
+    display: flex;
+    margin: 5em 10em;
+    padding: 2em;
+    color: #F9FAF8;
+    justify-content: space-between;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+}
+.ctabutton {
+    color: #F9FAF8;
+    border: 3px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+}
