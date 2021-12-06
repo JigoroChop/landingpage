@@ -3,78 +3,146 @@
 }
 
 body {
- margin: 0;
+    margin: 0; 
 }
 
-.hero, .footer {
-    background-color: #1f2937;
+#hero, .footer {
+    background-color:#1F2937;
     color: #F9FAF8;
 }
 
 .header {
     display: flex;
-    flex: 1 1 0;
-    padding: 2em;
-    align-items: center;
-
+    justify-content: space-around;
 }
 
 .links {
-    margin-left: auto;
     display: flex;
-    padding: 0 1em;
-    gap: 10px;
+    column-gap: 20px;
+
+}
+ul.links {
+    list-style-type: none;
 }
 
-.herotext {
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.herosubtext, .headerlink {
-    font-size: 18px;
-    color: #E5E7EB;
+.herobutton, #cta {
+    background-color: #3882F6;
 }
 
 .logo {
     font-size: 24px;
+    color: #F9FAF8;
+    margin: 10px;
 }
 
-.featurestext {
+.headerlink, .herosub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.herobox {
+    display: flex;
+    justify-content: space-between;
+    padding: 160px;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+}
+
+.herobutton {
+    width: 80px;
+    border-radius: 6px;
+    color: white;
+    margin-top: 6px;
+}
+.heroimg {
+    padding: 80px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+
+}
+
+#features {
+    padding: 40px 150px;
+}
+.featureshead {
+    text-align: center;
+}
+
+.img {
+    border: solid #3882F6 2px;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+    
+}
+.bennieboxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bennies {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    text-align: center;
+    
+}
+
+
+#quote {
+    background-color:#E5E7EB;
+    padding: 100px 240px;
+    margin-top: 10px;
+}
+
+.quotetext {
     font-size: 36px;
-    font-weight: 900;
-}
-
-.quotecontainer {
-    background-color: #E5E7EB;
-}
-
-.quote {
-    font-size: 36px;
-    font-weight: 100;
+    font-weight: 200;
     font-style: italic;
 }
 
-.ctabutton, .ctacontainer {
-    background-color: #3882F6;
+.quoter {
+    text-align: right;
 }
 
-.ctacontainer {
+#cta {
     display: flex;
-    margin: 5em 10em;
-    padding: 2em;
-    color: #F9FAF8;
     justify-content: space-between;
+    margin: 80px 120px;
+    color: white;
+    padding: 30px 120px;
 }
 
-.cta {
+.ctabox {
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 .ctabutton {
-    color: #F9FAF8;
-    border: 3px solid #F9FAF8;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: transparent;
     border-radius: 8px;
-    padding: 5px;
-    margin: 5px;
+    border-color: white;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 24px; 
 }

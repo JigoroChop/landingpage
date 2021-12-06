@@ -1,63 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-    <body>
-      <div class="hero">
-        <div class="header">
-            <div class="logo">
-                Header Logo</div>
-            <div class="links">
-              <div class="headerlink">
-                Header Link One</div>
-              <div class="headerlink">
-                Header Link Two</div>
-              <div class="headerlink">
-                Header Link Three</div>
-            </div>
+<body>
+  <div id="hero">
+    <div class="header">
+      <div class="logo">
+          Header Logo</div>
+      <ul class="links">
+        <li class="headerlink">
+          Header Link One</li>
+        <li class="headerlink">
+          Header Link Two</li>
+        <li class="headerlink">
+            Header Link Three</li>
+        </ul>  
+    </div>
+
+    <div class="herotext">
+      <div class="herobox">
+        <div class="heroleft">
+          <div class="heromain">This website is awesome</div>
+          <a class="herosub">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</a>
+          <button class="herobutton">
+            Sign Up </button>
         </div>
-        <h1 class="herotext">This website is awesome</h1>
-        <p class="herosubtext">
-            This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <img class="heroimg" src="dsad.jpg">
-      </div>
-
-      <div class="featurescontainer">
-        <h2 class="featurestext">
-            Some random information.
-        </h2>
-        <div class="features"><img src="1">This is some subtext under an illustration or an image.</div>
-        <div class="features"><img src="1">This is some subtext under an illustration or an image.</div>
-        <div class="features"><img src="1">This is some subtext under an illustration or an image.</div>
-        <div class="features"><img src="1">This is some subtext under an illustration or an image.</div>
-      </div>
-
-      <div class="quotecontainer">
-        <h3 class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h3>
-        <div class="quoter"> Odin, The All-Father</div>
-      </div>
-    
-      <div class="ctacontainer">
-        <div class="cta">
-        <h3 class="ctahead">Call to Action! It's time!</h3>
-        <p class="ctacopy">Sign up for our product by clicking that button right over there!</p>
+          <div class="heroimg">This is a placeholder for an image</div>
         </div>
-        <button class="ctabutton">Sign Up</button>
-      </div>
+    </div>  
+  </div>
 
-      <div class="footer">
-        <div class="copyright">Copyright © JigoroChop 2021</div>
-      </div>
+  <div id="features">
+    <div class="featureshead">
+      <h2>Some random information.</h2></div>
+      <div class="bennieboxes">
+        <div class="bennies"><div class="img"></div>This is some subtext under an illustration or an image.</div>
+        <div class="bennies"><div class="img"></div>This is some subtext under an illustration or an image.</div>
+        <div class="bennies"><div class="img"></div>This is some subtext under an illustration or an image.</div>
+        <div class="bennies"><div class="img"></div>This is some subtext under an illustration or an image.</div>
+      </div> 
+    </div>
+      
+  <div id="quote">
+    <div class="quotetext">
+      This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+    <h3 class="quoter">
+      -Thor, God of Thunder</h3>
+  </div>
 
-            
-            
+  <div id="cta">
+    <div class="ctaleft">
+      <h3 class="ctahead">Call to Action! It's time!</h3>
+      <a class="ctacopy">Sign up for our product by clicking that button right over there!</a>
+    </div>
+    <div class="ctabox">
+    <button class="ctabutton">Sign Up</button>
+    </div>  
+  </div>
+
+    <div class="footer">
+      <div class="copyright">Copyright © JigoroChop 2021</div>
+    </div>
 
 
 
 
 
-    </body>
+
+</body>
 </html>
